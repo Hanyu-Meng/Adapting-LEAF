@@ -1,0 +1,4 @@
+eval_loss=2.37168
+eval_acc=0.365138
+test_loss=2.62633
+test_acc=0.253223
