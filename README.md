@@ -6,9 +6,9 @@ This is the source code for adapting PCEN layer in LEAF under noisy environment.
 
 ## Experimental Setups and Results
 **1. Four model to be trained**
-<center>
+<p align="center">
     <img src="Image/experiment_process_leaf.png" width="500" height="400">
-</center>
+</p>
 
 * **Clean Trained**: Trained on the entire noise-free training set (baseline). 
 * **Noisy Trained**: Trained on the noisy version of the entire training data. 
@@ -18,9 +18,9 @@ This is the source code for adapting PCEN layer in LEAF under noisy environment.
 **2. Speech Processing Task: Emotion Recognition**
 **3. Dataset and Partition**
 We applied the CREMA-D Dataset with the following partition:
-<center>
+<p align="center">
     <img src="Image/data_partition.png" width="500" height="400">
-</center>
+</p>
 
 ## Getting Started
 ### Prequest
