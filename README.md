@@ -62,6 +62,7 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 
 
 ## File Structures
+```bash
 .
 ├── Adapting-LEAF
 │   ├── Job_script
@@ -90,8 +91,7 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 │   └── data
 │       ├── data1.csv
 │       ├── data2.csv
-
-
+```
 ## Pretained Models
 
 ## References
