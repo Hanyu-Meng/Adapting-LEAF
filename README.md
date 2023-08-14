@@ -6,9 +6,9 @@ This is the source code for adapting PCEN layer in LEAF under noisy environment.
 
 ## Experimental Setups and Results
 1. Four model to be trained
-![image text]https://github.com/Hanyu-Meng/Adapting-LEAF/blob/main/Image/experiment_process_leaf.png
+![image text]Image/experiment_process_leaf.png
 
-## Installation
+## Getting Started
 ### Prequest
     - python=3.8
     - setuptools==59.5.0
@@ -21,8 +21,8 @@ This is the source code for adapting PCEN layer in LEAF under noisy environment.
     - PySoundFile
     - soundfile
 
-### 
-1. clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
+```bash
+git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 
 
 ## Configration
