@@ -1,8 +1,11 @@
 # Adapting-LEAF
 The PCEN Adapting experiments under two kinds of noisy environments for INTERSPEECH 2023 Paper.
-Paper title: What is Learnt by the LEArnable Front-end (LEAF)? Adapting Per-Channel Energy Normalisation (PCEN) to Noisy Conditions
-Authors: Hanyu Meng, Dr Vidhyasaharan Sethu, Prof Eliathamby Ambikairajah
-Insititution: The University of New South Wales
+
+**Paper title**: What is Learnt by the LEArnable Front-end (LEAF)? Adapting Per-Channel Energy Normalisation (PCEN) to Noisy Conditions
+
+**Authors**: Hanyu Meng, Dr Vidhyasaharan Sethu, Prof Eliathamby Ambikairajah
+
+**Insititution**: The University of New South Wales
 
 ## Introduction
 This is the source code for adapting PCEN layer in LEAF under noisy environment.
