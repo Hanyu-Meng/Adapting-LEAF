@@ -15,7 +15,7 @@ This is the source code for adapting PCEN layer in LEAF under noisy environment.
 2. Speech Processing Task: Emotion Recognition
 3. Dataset and Partition
 We applied the CREMA-D Dataset with the following partition:
-![Dataset_Partition](Image/data_partition.png.png)
+![Dataset_Partition](Image/data_partition.png)
 ## Getting Started
 ### Prequest
     - python=3.8
