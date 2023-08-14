@@ -32,7 +32,7 @@ We applied the CREMA-D Dataset with the following partition:
     * Gaussian Noise (Stationary Noise) 
     * Babble Noise (Non-stationary Noise)
         * We create the babble noise environment by randomly select 3 speech samples from the MUSAN dataset and mixed them up.
-        * The availablity of MUSAN dataset: 
+        * The availablity of MUSAN dataset: [Download](https://www.openslr.org/17/)
         
 ** 5. Results and Analysis
 We evaluate the accuracy of the overall model accuracy under noisy environments (adding different kinds and level of noise to the test set).
