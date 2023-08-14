@@ -1,6 +1,12 @@
 # Adapting-LEAF
-The PCEN Adapting experiments under two kinds of noisy environments for INTERSPEECH 2023 submission.
+The PCEN Adapting experiments under two kinds of noisy environments for INTERSPEECH 2023 Paper.
+
 ## Introduction
+This is the source code for adapting PCEN layer in LEAF under noisy environment.
+
+## Experimental Setups and Results
+1. Four model to be trained
+![image text]https://github.com/Hanyu-Meng/Adapting-LEAF/blob/main/Image/experiment_process_leaf.png
 
 ## Installation
 ### Prequest
@@ -15,9 +21,9 @@ The PCEN Adapting experiments under two kinds of noisy environments for INTERSPE
     - PySoundFile
     - soundfile
 
-### Installation
+### 
 1. clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
-2. 
+
 
 ## Configration
 
