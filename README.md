@@ -40,6 +40,7 @@ The accuracy of all 4 models under different kinds/levels or noise is shown as f
 <p align="center">
     <img src="Image/noise_result_new.png" width="500" height="400">
 </p>
+
 ## Getting Started
 ### Prequest
     - python=3.8 
@@ -55,9 +56,9 @@ The accuracy of all 4 models under different kinds/levels or noise is shown as f
 
 ```bash
 git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
+```
+## Configrations
 
+## Acknowledgement
 
-## Configration
-
-## Credit
 
