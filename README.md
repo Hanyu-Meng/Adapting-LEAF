@@ -39,7 +39,7 @@ We applied the CREMA-D Dataset with the following partition:
 We evaluate the accuracy of the overall model accuracy under noisy environments (adding different kinds and level of noise to the test set).
 The accuracy of all 4 models under different kinds/levels or noise is shown as follow:
 <p align="center">
-    <img src="Image/noise_result_new.png" width="400" height="400">
+    <img src="Image/noise_result_new.png" width="500" height="350">
 </p>
 
 **Analysis:** 
