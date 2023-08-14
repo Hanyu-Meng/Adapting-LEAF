@@ -41,6 +41,16 @@ The accuracy of all 4 models under different kinds/levels or noise is shown as f
     <img src="Image/noise_result_new.png" width="500" height="400">
 </p>
 
+**Analysis:** 
+1. Gaussian Noise Adaptation
+    * Noisy training data helps the model learn the pattern of noise and improves its robustness.
+    * Adapting the PCEN layer with a small amount of noisy data, the impact of noise on accuracy can be mitigated.
+
+2. Babble Noise Adaptation
+    * Training with noisy data is not as effective under babble noise conditions.
+        - greater similarity between noise and   speech 
+    * Adapting PCEN with babble noise might be effective in allowing the model to be used under non-stationary noisy conditions. 
+
 ## Getting Started
 ### Prequest
     - python=3.8 
