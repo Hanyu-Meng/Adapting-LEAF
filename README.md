@@ -48,7 +48,7 @@ The accuracy of all 4 models under different kinds/levels or noise is shown as f
 
 2. Babble Noise Adaptation
     * Training with noisy data is not as effective under babble noise conditions.
-        - greater similarity between noise and   speech 
+        - The reason might due to that compared with gaussian noise, babble noise has greater similarity between noise and speech.
     * Adapting PCEN with babble noise might be effective in allowing the model to be used under non-stationary noisy conditions. 
 
 ## Getting Started
