@@ -54,10 +54,47 @@ The accuracy of all 4 models under different kinds/levels or noise is shown as f
     - PySoundFile
     - soundfile
 
+### Installation
 ```bash
 git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 ```
 ## Configrations
+
+
+## File Structures
+.
+├── Adapting-LEAF
+│   ├── Job_script
+│   │   ├── main.py
+│   │   ├── utils.py
+│   ├── Noise_dataset_create
+│   │   ├── image1.png
+│   │   ├── image2.jpg
+│   ├── Pre-trained models
+│   │   ├── Babble Noise
+│   │       ├── babble_BA_0db
+│   │           ├── args.txt
+│   │           ├── final_metrics.txt
+│   │           ├── net_checkpoint.pth
+│   │           ├── net_last_model.pth
+│   │       ├── .....
+│   │ 
+│   │   ├── Gaussian Noise
+│   │       ├── BA_0db
+│   │           ├── args.txt
+│   │           ├── final_metrics.txt
+│   │           ├── net_checkpoint.pth
+│   │           ├── net_last_model.pth
+│   │       ├── .....
+│   │   
+│   └── data
+│       ├── data1.csv
+│       ├── data2.csv
+
+
+## Pretained Models
+
+## References
 
 ## Acknowledgement
 
