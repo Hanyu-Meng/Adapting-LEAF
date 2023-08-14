@@ -74,7 +74,6 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 
 ## File Structures
 ```bash
-.
 ├── Adapting-LEAF
 │   ├── Job_script
 │   │   ├── main.py
@@ -99,9 +98,19 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 │   │           ├── net_last_model.pth
 │   │       ├── .....
 │   │   
-│   └── data
-│       ├── data1.csv
-│       ├── data2.csv
+│   └── datasets
+│       ├── __init__.py
+│       ├── crema_d.py
+│   └── model
+│       ├── __init__.py
+│       ├── leaf.py
+│   └── result_analysis
+│       ├── ....
+│   └── result_analysis
+│       ├── ....
+│   └── engine.py
+│   └── main.py
+│   └── utils.py
 ```
 ## Pretained Models
 
