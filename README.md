@@ -6,7 +6,12 @@ This is the source code for adapting PCEN layer in LEAF under noisy environment.
 
 ## Experimental Setups and Results
 1. Four model to be trained
-![image text](Image/experiment_process_leaf.png)
+![Clean Trained: Trained on the entire noise-free training set (baseline). 
+ Noisy Trained: Trained on the noisy version of the entire training data. 
+ Before Adapt: Trained on the noise-free training set without including adaptation data.
+ PCEN Adapt: The BA model with the PCEN layer was adapted using the noisy adaptation data. 
+](Image/experiment_process_leaf.png)
+2. Speech Processing Task
 
 ## Getting Started
 ### Prequest
