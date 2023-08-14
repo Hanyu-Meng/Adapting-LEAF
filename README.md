@@ -6,7 +6,7 @@ This is the source code for adapting PCEN layer in LEAF under noisy environment.
 
 ## Experimental Setups and Results
 1. Four model to be trained
-![image text]Image/experiment_process_leaf.png
+![image text](Image/experiment_process_leaf.png)
 
 ## Getting Started
 ### Prequest
