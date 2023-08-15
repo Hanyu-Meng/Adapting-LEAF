@@ -76,7 +76,7 @@ The accuracy of all 4 models under different kinds/levels or noise is shown as f
 git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 ```
 ## Configrations
-1. Creating Noisy Dataset**
+1. **Creating Noisy Dataset**
     * **Create Noisy Dataset with Different Level of Gaussian Noise**
 
     1. Change the dataset directory and new path in [create_noisy_dataset.py](PCEN_Adapting/Noisy_dataset_create/create_noisy_dataset.py) to your dataset directory and the directory to store the noisy dataset.
@@ -102,7 +102,7 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
     python3 dataset_pre_process.py
     ```
 
-2. Baseline model Training
+2. **Baseline Models Training**
 
     * **Clean Trained**
         * Gaussian Noise
@@ -124,7 +124,7 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
         ```
     Alternatively, you can modified the batch-job script [batch_job_noisy_train.py](Job_scripts/batch_job_noisy_train.py) to run the experiments, it can automatically vary the noise level and store the models.
 
-3. **Adaption model training**
+3. **Adaption Models Training**
 
     * **Before Adapt (BA)**
         * Gaussian Noise
