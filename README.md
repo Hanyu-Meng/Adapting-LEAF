@@ -77,7 +77,7 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 ```
 ## Configrations
 **Step 1: Creating Noisy Dataset**
-    * **Create Noisy Dataset with Different Level of Gaussian Noise**
+    * Create Noisy Dataset with Different Level of Gaussian Noise
 
     1. Change the dataset directory and new path in [create_noisy_dataset.py](PCEN_Adapting/Noisy_dataset_create/create_noisy_dataset.py) to your dataset directory and the directory to store the noisy dataset.
 
@@ -89,7 +89,7 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
     ```bash
     python3 dataset_pre_process.py
     ```
-    * **Create Noisy Dataset with Different Level of Babble Noise**
+    * Create Noisy Dataset with Different Level of Babble Noise
 
     1. Change the dataset directory, new path, and dir in [create_babble_noise_dataset.py](PCEN_Adapting/Noisy_dataset_create/create_babble_noise_dataset.py) to your dataset directory, the directory to store the noisy dataset, and your directory for MUSAN speech subset.
     ```bash
