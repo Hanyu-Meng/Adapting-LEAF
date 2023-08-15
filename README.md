@@ -76,8 +76,30 @@ The accuracy of all 4 models under different kinds/levels or noise is shown as f
 git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 ```
 ## Configrations
+1. **Creating Noisy Dataset**
+    * Create Gaussian noisy set
+    1. Change the dataset directory and new path in [create_noisy_dataset.py](PCEN_Adapting/Noisy_dataset_create/create_noisy_dataset.py) to your dataset directory and the directory to store the noisy dataset.
 
-1. **Baseline model Training**
+    2. Open [dataset_pre_process.py](PCEN_Adapting/Noisy_dataset_create/dataset_pre_process.py), change exec
+    ```bash
+    exec = "/your_environment_directory /current_path/create_noisy_dataset_dataset.py"
+    ```
+    3. Run [dataset_pre_process.py](PCEN_Adapting/Noisy_dataset_create/dataset_pre_process.py)
+    ```bash
+    python3 dataset_pre_process.py"
+    ```
+    * Create Babble noisy set
+    1. Change the dataset directory, new path, and dir in [create_babble_noise_dataset.py](PCEN_Adapting/Noisy_dataset_create/create_babble_noise_dataset.py) to your dataset directory, the directory to store the noisy dataset, and your directory for MUSAN speech subset.
+    ```bash
+    directory = "/your_path_for_CREMA_D"
+    path_new = "/your_path_for_different_level_of_Babble_CREMA_D"
+    dir = '/your_path_for_MUSAN_SPEECH'
+    ```
+    2. Run [dataset_pre_process.py](PCEN_Adapting/Noisy_dataset_create/dataset_pre_process.py)
+    ```bash
+    python3 dataset_pre_process.py
+    ```
+2. **Baseline model Training**
     * **Clean Trained**
     * Gaussian Noise
     ```bash
@@ -89,7 +111,7 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
     ```
     * **Noisy Trained**
     
-2. **Adaption model training**
+3. **Adaption model training**
     * **Before Adapt**
     * **PCEN Adapt**
 
