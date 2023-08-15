@@ -105,23 +105,23 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 2. Baseline model Training
 
     * **Clean Trained**
-    * Gaussian Noise
-    ```bash
-    python3 main.py ---noise_test True --noise False
-    ```
-    * Babble Noise
-    ```bash
-    python3 main.py ---babble_test True --noise False
-    ```
+        * Gaussian Noise
+        ```bash
+        python3 main.py ---noise_test True --noise False
+        ```
+        * Babble Noise
+        ```bash
+        python3 main.py ---babble_test True --noise False
+        ```
     * **Noisy Trained**
         * Gaussian Noise
-    ```bash
-    python3 main.py ---noise_test True --noise False
-    ```
-    * Babble Noise
-    ```bash
-    python3 main.py ---babble_test True --noise False
-    ```
+        ```bash
+        python3 main.py ---noise_test True --noise True
+        ```
+        * Babble Noise
+        ```bash
+        python3 main.py ---babble_test True --noise True
+        ```
 
 3. **Adaption model training**
 
