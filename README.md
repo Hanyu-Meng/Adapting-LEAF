@@ -103,6 +103,7 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
     ```
 
 **Step 2: Baseline model Training**
+
     * **Clean Trained**
     * Gaussian Noise
     ```bash
@@ -113,9 +114,19 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
     python3 main.py ---babble_test True --noise False
     ```
     * **Noisy Trained**
-    
+        * Gaussian Noise
+    ```bash
+    python3 main.py ---noise_test True --noise False
+    ```
+    * Babble Noise
+    ```bash
+    python3 main.py ---babble_test True --noise False
+    ```
+
 3. **Adaption model training**
+
     * **Before Adapt**
+    
     * **PCEN Adapt**
 
 ## File Structures
@@ -150,8 +161,6 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 │   └── model
 │       ├── __init__.py
 │       ├── leaf.py
-│   └── result_analysis
-│       ├── ....
 │   └── result_analysis
 │       ├── ....
 │   └── engine.py
