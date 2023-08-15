@@ -126,16 +126,25 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 
 3. **Adaption model training**
 
-    * **Before Adapt**
+    * **Before Adapt (BA)**
         * Gaussian Noise
         ```bash
-        python3 main.py --data-set 'CREMAD_SEN_90' --noise_test True  ---babble_test False --noise False --level {noise_level}
+        python3 main.py --data-set 'CREMAD' --noise_test True  ---babble_test False --noise True --level {noise_level} --tune False
         ```
         * Babble Noise
         ```bash
-        python3 main.py --data-set 'CREMAD_SEN_90'  --noise_test False --babble_test True --babble False --level {noise_level}
+        python3 main.py --data-set 'CREMAD'  --noise_test False --babble_test True --babble True  --level {noise_level} --tune False
         ```
-    * **PCEN Adapt**
+    * **PCEN Adapt (PA)**
+        * Gaussian Noise
+        ```bash
+        python3 main.py --data-set 'CREMAD' --resume {path_to_corresponding_BA_model} --noise_test True  ---babble_test False --noise True --level {noise_level} --tune True
+        ```
+        * Babble Noise
+        ```bash
+        python3 main.py --data-set 'CREMAD' --resume {path_to_corresponding_BA_model}  --noise_test False --babble_test True --babble True --level {noise_level} --tune True
+        ```
+    There are also have batch_job files [batch_job_before_adapt.py](Job_scripts/batch_job_before_adapt.py) and [batch_job_pcen_adapt.py](Job_scripts/batch_job_pcen_adapt.py) for reference, you can modify the job scripts according to your settings.
 
 ## File Structures
 ```bash
