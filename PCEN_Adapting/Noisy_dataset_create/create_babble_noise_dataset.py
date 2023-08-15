@@ -10,16 +10,13 @@ if os.path.exists(path_new):
     pass
 else:
     os.makedirs(path_new)
+    
 # Load the original speech signal
 SNR = sys.argv[1]
-
 
 speaker_count = 3
 dir = '/media/unsw/172E-A21B/IS2023/leaf_dataset/musan'
 # Pick an SNR and use it to compute the mixture amplitude factors
-
-
-
 
 for filename in os.listdir(directory):
     if os.path.isfile(os.path.join(directory, filename)):
