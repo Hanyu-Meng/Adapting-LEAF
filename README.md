@@ -190,6 +190,7 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 We also provided the pre-trained models in the folder [PCEN_Adapting/Pre-trained models](PCEN_Adapting/Pre-trained%20models/). Inside the folder, the **Gaussian Noise** folder contains noisy trained models, Before Adapt (BA) models, and PCEN adapt (PA) models for different SNR settings. Those same models for babble noise adapting experiment are in the **Babble Noise** folder.
 
 ## Credits
-As for the LEAF training, we adapted the code from [EfficientLEAF Work](https://github.com/CPJKU/EfficientLEAF)
+As for the LEAF training, we adapted the code from [EfficientLEAF Work](https://github.com/CPJKU/EfficientLEAF).
+
 We made some modifications based on this repository.
 
