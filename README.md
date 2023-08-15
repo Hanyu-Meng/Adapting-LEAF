@@ -77,13 +77,28 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 ```
 ## Configrations
 
+1. **Baseline model Training**
+    * **Clean Trained**
+    * Gaussian Noise
+    ```bash
+    python3 main.py ---noise_test True --noise False
+    ```
+    * Babble Noise
+    ```bash
+    python3 main.py ---babble_test True --noise False
+    ```
+    * **Noisy Trained**
+    
+2. **Adaption model training**
+    * **Before Adapt**
+    * **PCEN Adapt**
 
 ## File Structures
 ```bash
 ├── Adapting-LEAF
 │   ├── Job_script
-│   │   ├── main.py
-│   │   ├── utils.py
+│   │   ├── batch_job.py
+│   │   ├── batch_job_before_adapt.py
 │   ├── Noise_dataset_create
 │   │   ├── image1.png
 │   │   ├── image2.jpg
