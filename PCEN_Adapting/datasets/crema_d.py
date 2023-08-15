@@ -403,7 +403,7 @@ def build_dataset_90_sentences(args):
     if args.adaptation == True:
         test_set = Crema_D_speakers(root=args.data_path, split='test', seed=args.seed, target_spk=args.target_speaker, babble=args.babble, noise=args.noise)
     else:
-        test_set = Crema_D_90_clean(root=args.data_path, split='test', seed=args.seed, target_spk=args.target_speaker, test_noise = True, test_babble = args.babble_test, level=args.level)
+        test_set = Crema_D_90_clean(root=args.data_path, split='test', seed=args.seed, target_spk=args.target_speaker, test_noise = args.noise_test, test_babble = args.babble_test, level=args.level)
 
     if args.noise == True or args.babble == True:
         val_set = Crema_D_sentences_90(root = args.data_path, split='validation', seed=args.seed, target_spk = args.target_speaker, babble=args.babble, noise=args.noise, level=args.level)

@@ -107,26 +107,34 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
     * **Clean Trained**
         * Gaussian Noise
         ```bash
-        python3 main.py ---noise_test True --noise False
+        python3 main.py --data-set 'CREMAD_SEN_90' --noise_test True  ---babble_test False --noise False --level {noise_level}
         ```
         * Babble Noise
         ```bash
-        python3 main.py ---babble_test True --noise False
+        python3 main.py --data-set 'CREMAD_SEN_90'  --noise_test False --babble_test True --babble False --level {noise_level}
         ```
     * **Noisy Trained**
         * Gaussian Noise
         ```bash
-        python3 main.py ---noise_test True --noise True
+        python3 main.py --data-set 'CREMAD_SEN_90' --noise_test True  ---babble_test False --noise True --level {noise_level}
         ```
         * Babble Noise
         ```bash
-        python3 main.py ---babble_test True --noise True
+        python3 main.py --data-set 'CREMAD_SEN_90'  --noise_test False --babble_test True --babble True --level {noise_level}
         ```
+    Alternatively, you can modified the batch-job script [batch_job_noisy_train.py](Job_scripts/batch_job_noisy_train.py) to run the experiments, it can automatically vary the noise level and store the models.
 
 3. **Adaption model training**
 
     * **Before Adapt**
-    
+        * Gaussian Noise
+        ```bash
+        python3 main.py --data-set 'CREMAD_SEN_90' --noise_test True  ---babble_test False --noise False --level {noise_level}
+        ```
+        * Babble Noise
+        ```bash
+        python3 main.py --data-set 'CREMAD_SEN_90'  --noise_test False --babble_test True --babble False --level {noise_level}
+        ```
     * **PCEN Adapt**
 
 ## File Structures

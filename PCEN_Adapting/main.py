@@ -164,8 +164,8 @@ def get_args_parser():
                          help='add reverbration to all train. validation and test data')
     parser.add_argument('--noise_test',default=False, type=bool,
                         help='Using the noisy data for testing')
-    parser.add_argument('--babble_test',default=True, type=bool,
-                        help='Using the noisy data for testing')
+    parser.add_argument('--babble_test',default=False, type=bool,
+                        help='Using the babble noisy data for testing')
 
     parser.add_argument('--tune',default=False, type=bool,
                         help='tuning the noise adaptation model using noise/reverb data for one sentences')
