@@ -7,6 +7,8 @@ The PCEN Adapting experiments under two kinds of noisy environments for INTERSPE
 
 **Insititution**: The University of New South Wales
 
+**Contact**: hanyu.meng@unsw.edu.au
+
 ## Introduction
 This is the source code for adapting PCEN layer in LEAF under noisy environment.
 
@@ -185,9 +187,9 @@ git clone https://github.com/Hanyu-Meng/Adapting-LEAF.git
 │   └── utils.py
 ```
 ## Pretained Models
+We also provided the pre-trained models in the folder [PCEN_Adapting/Pre-trained models](PCEN_Adapting/Pre-trained%20models/). Inside the folder, the **Gaussian Noise** folder contains noisy trained models, Before Adapt (BA) models, and PCEN adapt (PA) models for different SNR settings. Those same models for babble noise adapting experiment are in the **Babble Noise** folder.
 
-## References
-
-## Acknowledgement
+## Acknowledgement and References
+As for the LEAF training, we used the code from 
 
 
